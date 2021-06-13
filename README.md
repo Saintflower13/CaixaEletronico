@@ -81,6 +81,7 @@ O tópico abaixo descreve o passo a passo para rodar os testes.
 ## Instruções para execução do código  
 
 Antes de qualquer coisa, certifique-se que você tenha o node instalado em sua máquina.  
+Estão descritos os passos utilizando npm e yarn.  
 Após isso, clone este repositório:  
 
 ```
@@ -97,17 +98,23 @@ e rode o seguinte comando para instalar as dependências do projeto:
 
 ```
 npm install
+ou
+yarn install
 ```
 
 Para executar os testes unitários disponibilizados:
 
 ```
 npm test
+ou
+yarn test
 ```
 
 Para rodar a aplicação:
 
 ```
 npm start
+ou
+yarn start
 ```
 
