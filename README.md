@@ -65,7 +65,7 @@ Pontos importantes:
 
 Também estão disponibilizados testes unitários para as funcionalidades do sistema. Estão localizados em *tests/caixa_eletronico.test.js*.
 
-Os testes cobrem os seguintes cenários:  
+Os testes foram feitos com o framework Jest e cobrem os seguintes cenários:  
 
 * Valor de saque não é um valor inteiro (Não é possível sacar moedas no caixa);
 * Não existem notas suficientes para formar o valor solicitado (ex: valor solicitado 55, porém no caixa não estão disponíveis notas de 5);
